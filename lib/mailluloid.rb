@@ -1,8 +1,9 @@
 require 'action_mailer'
 require 'mail'
+require 'celluloid'
 
 class Mail::Message
-  include Celluloid
+  include ::Celluloid
   alias :_mailluloid_super_deliver :deliver
   def deliver
     async.deliver_then_terminate
