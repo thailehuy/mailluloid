@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/thailehuy/mailluloid'
 
-  s.add_runtime_dependency 'actionmailer'
-  s.add_runtime_dependency 'celluloid'
+  s.add_dependency 'actionmailer'
+  s.add_dependency 'celluloid'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
