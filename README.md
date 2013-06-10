@@ -3,8 +3,11 @@ Mailluloid
 
 https://github.com/thailehuy/mailluloid
 
-> gem 'mailluloid' <br/>
-> bundle
+In your Gemfile, include the gem
+
+>   gem 'mailluloid'
+
+Run `bundle` and you are done
 
 Any help to improve this would be appreciated
 
