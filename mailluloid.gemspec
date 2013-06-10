@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'mailluloid'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.platform    = Gem::Platform::RUBY
   s.licenses    = ['MIT']
   s.date        = '2013-06-09'
@@ -17,9 +17,10 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/thailehuy/mailluloid'
 
-  s.add_development_dependency 'actionmailer'
+  s.add_runtime_dependency 'actionmailer'
+  s.add_runtime_dependency 'celluloid'
+
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'celluloid'
   s.add_development_dependency 'rspec'
 
 end
